@@ -30,13 +30,7 @@ from helper_funcs.chat_base import TRChatBase
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["generatecustomthumbnail"]))
 async def generate_custom_thumbnail(bot, update):
-    if update.from_user.id not in Config.AUTH_USERS:
-        await bot.delete_messages(
-            chat_id=update.chat.id,
-            message_ids=update.message_id,
-            revoke=True
-        )
-        return
+    
     TRChatBase(update.from_user.id, update.text, "generatecustomthumbnail")
     if update.reply_to_message is not None:
         reply_message = update.reply_to_message
