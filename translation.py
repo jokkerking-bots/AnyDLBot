@@ -2,8 +2,10 @@ class Translation(object):
     START_TEXT = """🙋Hello,
 This is a Telegram URL Upload Bot!
 <b>☺Please send me any direct download URL Link, i can upload to telegram as File/Video
+
 I also I have a lot of functions📥</b>
 /help for more details..
+
 Support : @JokkerKing"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
@@ -30,7 +32,7 @@ URL | filename | username | password"""
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 Telegram ID: <code>{}</code>
-Plan Nane: <a href='https://t.me/https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Free User</a>
+Plan Nane: <a href='https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Free User</a>
 Expires on: Until My death
 Contact: @JokkerKing"""
     HELP_USER = """There are multiple things I can do:
